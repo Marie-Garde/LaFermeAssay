@@ -1,11 +1,8 @@
-import projet from "../assets/Photos/main/projet.jpg";
-
 import styled from "styled-components";
 
 export const Flex = styled.div`
   background-image: url("https://images.pexels.com/photos/1094544/pexels-photo-1094544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  height: 100vh;
-  margin-bottom: 10vh;
+  height: 90vh;
   opacity: 0.8;
 `;
 
