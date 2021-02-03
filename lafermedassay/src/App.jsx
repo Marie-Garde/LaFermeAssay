@@ -2,6 +2,7 @@ import { Reset } from "styled-reset";
 
 import Header from "./components/Header";
 import MainPage from "./components/MainPage";
+import Evenements from "./components/Evenements";
 import Footer from "./components/Footer";
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div>
       <Reset />
       <Header />
-      <MainPage />
+      <Evenements />
       <Footer />
     </div>
   );
