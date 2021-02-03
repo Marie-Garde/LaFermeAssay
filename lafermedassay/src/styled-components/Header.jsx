@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const Background = styled.div`
+  height: 100%;
+  background-color: #ece2d8;
+`;
+
 export const Img = styled.img`
   width: 100%;
   height: 100vh;
@@ -17,6 +22,7 @@ export const NavBar = styled.div`
   position: fixed;
   overflow: hidden;
   width: 100%;
+  z-index: 10;
 `;
 
 export const Logo = styled.h1`
