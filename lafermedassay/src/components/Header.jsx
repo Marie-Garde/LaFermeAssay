@@ -10,6 +10,8 @@ import {
   Ressources,
 } from "../styled-components/Header.jsx";
 
+import SideBar from "./BurgerMenu";
+
 export default function Header() {
   return (
     <>
@@ -22,6 +24,7 @@ export default function Header() {
             <Li to="/evenements">Evènements</Li>
             <Li>Nous contacter</Li>
           </Ul>
+          <SideBar />
         </NavBar>
         <Img src={header} />
         <Ressources>Ressourcez-vous en pleine nature</Ressources>

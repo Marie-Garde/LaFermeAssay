@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { Device } from "../assets/Device/Device";
 
 export const Background = styled.div`
   height: 100%;
@@ -16,6 +17,9 @@ export const DivCard = styled.div`
   padding-top: 2vh;
   background-color: #d1c3bb;
   box-shadow: 7px 9px 38px 0px rgba(110, 110, 110, 0.6);
+  @media ${Device.mobile} {
+    height: 12vh;
+  }
 `;
 
 export const Array = styled.div`
@@ -32,6 +36,9 @@ export const H2 = styled.h2`
   font-size: 1.6rem;
   font-family: "Josefin Sans";
   font-weight: bold;
+  @media ${Device.mobile} {
+    font-size: 1rem;
+  }
 `;
 
 export const H3 = styled.h2`
@@ -39,6 +46,9 @@ export const H3 = styled.h2`
   font-family: "Josefin Sans";
   text-align: center;
   font-weight: bold;
+  @media ${Device.mobile} {
+    display: none;
+  }
 `;
 
 export const H1 = styled.h1`
@@ -47,24 +57,40 @@ export const H1 = styled.h1`
   width: 9vw;
   padding-left: 0.7vw;
   text-align: center;
+  @media ${Device.mobile} {
+    font-size: 0.8rem;
+    width: 10vw;
+  }
 `;
 
 export const P = styled.p`
   font-size: 1.2rem;
   padding-left: 2vw;
   text-align: center;
+  @media ${Device.mobile} {
+    padding-left: 13vw;
+    font-size: 0.8rem;
+  }
 `;
 
 export const P2 = styled.p`
   font-size: 1.2rem;
   padding-left: 6vw;
   text-align: center;
+  @media ${Device.mobile} {
+    padding-left: 10vw;
+    font-size: 0.8rem;
+  }
 `;
 
 export const P3 = styled.p`
   font-size: 1.2rem;
   padding-left: 8.8vw;
   text-align: center;
+  @media ${Device.mobile} {
+    padding-left: 18vw;
+    font-size: 0.8rem;
+  }
 `;
 
 export const P4 = styled.p`
@@ -72,18 +98,27 @@ export const P4 = styled.p`
   padding-left: 3.8vw;
   width: 16vw;
   text-align: center;
+  @media ${Device.mobile} {
+    display: none;
+  }
 `;
 
 export const P5 = styled.p`
   font-size: 1.2rem;
   padding-left: 8.6vw;
   text-align: center;
+  @media ${Device.mobile} {
+    display: none;
+  }
 `;
 
 export const P6 = styled.p`
   font-size: 1.2rem;
   padding-left: 12vw;
   text-align: center;
+  @media ${Device.mobile} {
+    display: none;
+  }
 `;
 
 export const Trait = styled.div`
@@ -104,6 +139,9 @@ export const Title = styled.h1`
   text-align: center;
   padding-top: 7vh;
   padding-bottom: 3vh;
+  @media ${Device.mobile} {
+    font-size: 1.5rem;
+  }
 `;
 
 export const Button = styled.button`
@@ -125,6 +163,11 @@ export const Button = styled.button`
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
   }
+  @media ${Device.mobile} {
+    width: 60vw;
+    height: 10vh;
+    margin-left: 20vw;
+  }
 `;
 
 export const P1 = styled(Link)`
@@ -135,6 +178,10 @@ export const P1 = styled(Link)`
   top: 30%;
   color: white;
   text-decoration: none;
+  @media ${Device.mobile} {
+    font-size: 1rem;
+    top: 25%;
+  }
 `;
 
 export const Inscription = styled.img`
@@ -144,4 +191,8 @@ export const Inscription = styled.img`
   left: 0;
   top: 0;
   position: absolute;
+  @media ${Device.mobile} {
+    width: 60vw;
+    height: 10vh;
+  }
 `;

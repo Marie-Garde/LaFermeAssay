@@ -33,12 +33,9 @@ export default function MainPage() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor i Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor i
+                  Lorem ipsumnim ad minim veniam, quis nostrud exercitation
+                  ullamco Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit, sed do eiusmod tempor i
                 </P>
                 <Link>En savoir plus...</Link>
               </Text>
@@ -52,11 +49,9 @@ export default function MainPage() {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor i Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor i
+                  do eiminim veniam, quis nostrud exercitation ullamco Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor i
                 </P>
                 <Link>En savoir plus...</Link>
               </Text>
@@ -67,14 +62,10 @@ export default function MainPage() {
                 <H1>Auberge</H1>
                 <P>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor i Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor i
+                  do eius do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit, sed do eiusmod tempor i
                 </P>
                 <Link>En savoir plus...</Link>
               </Text>

@@ -48,8 +48,8 @@ export default function Evenements() {
           <H2>Heure</H2>
           <H2>Durée</H2>
           <H3>Description</H3>
-          <H2>Nombre de places</H2>
-          <H2>Prérequis</H2>
+          <H3>Nombre de places</H3>
+          <H3>Prérequis</H3>
         </Array>
         <Trait></Trait>
         {evenements.map((event, i) => (

@@ -8,6 +8,9 @@ export const Background = styled.div`
   display: flex;
   flex-direction: row;
   background-image: url(${inscription});
+  @media ${Device.mobile} {
+    height: 80vh;
+  }
 `;
 
 export const Filter = styled.div`
@@ -22,6 +25,10 @@ export const FlexBox1 = styled.div`
   padding-left: 3vw;
   padding-top: 8vh;
   width: 50vw;
+  @media ${Device.mobile} {
+    width: 70vw;
+    height: 50vh;
+  }
 `;
 
 export const P = styled.h1`
@@ -29,6 +36,7 @@ export const P = styled.h1`
   font-family: "Josefin Sans";
   @media ${Device.mobile} {
     margin-left: 2vw;
+    font-size: 1.2rem;
   }
 `;
 
@@ -75,7 +83,7 @@ export const Select = styled.select`
   width: 51.8%;
   font-family: "Josefin Sans";
   @media ${Device.mobile} {
-    display: none;
+    width: 86vw;
   }
 `;
 
@@ -109,7 +117,7 @@ export const StyledButton = styled.button`
     cursor: pointer;
   }
   @media ${Device.mobile} {
-    margin-left: 27vw;
+    margin-left: 20vw;
     margin-bottom: 4vh;
     height: 9vw;
   }

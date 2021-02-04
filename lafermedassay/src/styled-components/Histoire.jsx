@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Device } from "../assets/Device/Device";
 
 export const FlexTitle = styled.div`
   display: flex;
@@ -25,6 +26,9 @@ export const Trait2 = styled.div`
 export const P = styled.p`
   font-family: "Josefin Sans";
   font-size: 1.8rem;
+  @media ${Device.mobile} {
+    font-size: 1.2rem;
+  }
 `;
 
 export const Text = styled.div`
@@ -34,6 +38,9 @@ export const Text = styled.div`
   font-size: 1.3rem;
   text-align: center;
   font-family: "Josefin Sans";
+  @media ${Device.mobile} {
+    font-size: 1rem;
+  }
 `;
 
 export const Img = styled.img`
@@ -42,4 +49,9 @@ export const Img = styled.img`
   margin-left: 35vw;
   margin-bottom: 10vh;
   box-shadow: 7px 9px 38px 0px rgba(110, 110, 110, 0.6);
+  @media ${Device.mobile} {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-bottom: 0;
+  }
 `;
