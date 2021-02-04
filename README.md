@@ -24,7 +24,7 @@ Go to the checkpoint-4/ folder and do those commands
 
 ```
     $ cd backend/
-    $ node server.js
+    $ node index.js
 ```
 
 Add a .env file in the backend folder with those variables, and fill the variable with the correct values
