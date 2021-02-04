@@ -49,5 +49,5 @@ export const Ressources = styled.p`
   font-family: "Josefin Sans";
   position: absolute;
   top: 94vh;
-  left: 27vw;
+  left: 26vw;
 `;
