@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Background = styled.div`
   height: 100%;
@@ -119,19 +120,21 @@ export const Button = styled.button`
   filter: grayscale(100%);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  cursor: pointer;
   &:hover {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
   }
 `;
 
-export const P1 = styled.p`
+export const P1 = styled(Link)`
   font-size: 1.6rem;
   font-family: "Josefin Sans";
   position: absolute;
   left: 2%;
   top: 30%;
   color: white;
+  text-decoration: none;
 `;
 
 export const Inscription = styled.img`

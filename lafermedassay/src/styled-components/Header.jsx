@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { Device } from "../assets/Device/Device";
 
 export const Background = styled.div`
   height: 100%;
@@ -11,6 +12,9 @@ export const Img = styled.img`
   height: 100vh;
   overflow-y: hidden;
   top: 0;
+  @media ${Device.mobile} {
+    height: 30vh;
+  }
 `;
 
 export const NavBar = styled.div`
@@ -41,6 +45,7 @@ export const Ul = styled.ul`
   color: white;
   font-size: 1.5rem;
 `;
+
 export const Li = styled(Link)`
   list-style: none;
   display: inline-block;
@@ -55,4 +60,7 @@ export const Ressources = styled.p`
   position: absolute;
   top: 94vh;
   left: 26vw;
+  @media ${Device.mobile} {
+    display: none;
+  }
 `;

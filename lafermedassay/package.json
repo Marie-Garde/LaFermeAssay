@@ -10,6 +10,7 @@
     "nuka-carousel": "^4.7.5",
     "pure-react-carousel": "^1.27.6",
     "react": "^17.0.1",
+    "react-burger-menu": "^3.0.3",
     "react-dom": "^17.0.1",
     "react-responsive-carousel": "^3.2.11",
     "react-router-dom": "^5.2.0",

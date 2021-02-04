@@ -65,7 +65,7 @@ export default function Evenements() {
         ))}
         <Button>
           <Inscription src={button}></Inscription>
-          <P1>Un atelier vous intéresse ? Inscrivez vous</P1>
+          <P1 to="/inscription">Un atelier vous intéresse ? Inscrivez vous</P1>
         </Button>
       </>
     </Background>
