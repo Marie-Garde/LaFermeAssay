@@ -14,9 +14,9 @@ I choose to create a website who sells video games.
 To run this project, install it locally using npm:
 
 ```
-    $ git clone https://github.com/ThomasMlh/checkpoint-4.git
+    $ git clone https://github.com/Marie-Garde/LaFermeAssay.git
     $ cd checkpoint-4/
-    $ cd frontend/
+    $ cd lafermedassay/
     $ npm start
 ```
 
