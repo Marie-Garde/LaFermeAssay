@@ -1,4 +1,5 @@
 import { Reset } from "styled-reset";
+import { Switch, Route } from "react-router-dom";
 
 import Header from "./components/Header";
 import MainPage from "./components/MainPage";
@@ -11,7 +12,11 @@ function App() {
     <div>
       <Reset />
       <Header />
-      <AddEvenements />
+      <Switch>
+        <Route exact path="/" component={MainPage} />
+        <Route path="/evenements" component={Evenements} />
+        <Route path="/admin" component={AddEvenements} />
+      </Switch>
       <Footer />
     </div>
   );

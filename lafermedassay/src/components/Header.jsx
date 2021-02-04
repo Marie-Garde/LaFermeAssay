@@ -14,11 +14,11 @@ export default function Header() {
     <>
       <Background>
         <NavBar>
-          <Logo>Ferme d'Assay</Logo>
+          <Logo to="/">Ferme d'Assay</Logo>
           <Ul>
             <Li>La ferme</Li>
             <Li>Médecine chinoise</Li>
-            <Li>Evènements</Li>
+            <Li to="/evenements">Evènements</Li>
             <Li>Nous contacter</Li>
           </Ul>
         </NavBar>

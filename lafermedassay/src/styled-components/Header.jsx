@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Background = styled.div`
   height: 100%;
@@ -25,12 +26,14 @@ export const NavBar = styled.div`
   z-index: 10;
 `;
 
-export const Logo = styled.h1`
+export const Logo = styled(Link)`
   flex: 1;
   padding-left: 4vw;
   color: white;
   font-size: 1.8rem;
+  text-decoration: none;
 `;
+
 export const Ul = styled.ul`
   flex: 2;
   display: flex;
@@ -38,9 +41,11 @@ export const Ul = styled.ul`
   color: white;
   font-size: 1.5rem;
 `;
-export const Li = styled.li`
+export const Li = styled(Link)`
   list-style: none;
   display: inline-block;
+  color: white;
+  text-decoration: none;
 `;
 
 export const Ressources = styled.p`
