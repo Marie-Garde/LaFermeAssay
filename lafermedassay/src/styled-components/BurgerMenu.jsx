@@ -36,3 +36,24 @@ export const BurgerMenuContainer = styled.p`
     transform: rotate(0) translateY(0);
   }
 `;
+
+export const Navigation = styled.p`
+  background-color: black;
+  width: 20vw;
+  height: 50vh;
+  z-index: 500;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+`;
+
+export const Ul = styled.ul`
+  list-style: none;
+  height: 50vh;
+`;
+
+export const Li = styled.li`
+  list-style: none;
+  height: 50vh;
+`;

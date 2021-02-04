@@ -1,4 +1,5 @@
 import header from "../assets/Photos/header.jpg";
+import React, { useState, useEffect } from "react";
 
 import {
   Background,
@@ -8,11 +9,16 @@ import {
   Li,
   Logo,
   Ressources,
+  Navigation,
+  BurgerMenuContainer,
+  Ul2,
+  Li2,
+  Barre,
+  NavBis,
 } from "../styled-components/Header.jsx";
 
-import SideBar from "./BurgerMenu";
-
 export default function Header() {
+  const [status, setStatus] = useState("close");
   return (
     <>
       <Background>
@@ -24,7 +30,6 @@ export default function Header() {
             <Li to="/evenements">Evènements</Li>
             <Li>Nous contacter</Li>
           </Ul>
-          <SideBar />
         </NavBar>
         <Img src={header} />
         <Ressources>Ressourcez-vous en pleine nature</Ressources>

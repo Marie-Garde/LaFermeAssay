@@ -28,6 +28,10 @@ export const NavBar = styled.div`
   overflow: hidden;
   width: 100%;
   z-index: 10;
+  @media ${Device.mobile} {
+    flex-direction: column;
+    justify-content: space-around;
+  }
 `;
 
 export const Logo = styled(Link)`
@@ -36,6 +40,10 @@ export const Logo = styled(Link)`
   color: white;
   font-size: 1.8rem;
   text-decoration: none;
+  @media ${Device.mobile} {
+    font-size: 1.2rem;
+    padding-top: 1vh;
+  }
 `;
 
 export const Ul = styled.ul`
@@ -44,6 +52,11 @@ export const Ul = styled.ul`
   justify-content: space-around;
   color: white;
   font-size: 1.5rem;
+  @media ${Device.mobile} {
+    font-size: 0.8rem;
+    padding-top: 1vh;
+    width: 95vw;
+  }
 `;
 
 export const Li = styled(Link)`
@@ -63,4 +76,64 @@ export const Ressources = styled.p`
   @media ${Device.mobile} {
     display: none;
   }
+`;
+
+export const BurgerMenuContainer = styled.p`
+  display: flex;
+  flex-direction: column;
+  i {
+    background-color: gray;
+    width: 32px;
+    height: 4px;
+    margin: 4px;
+    border-radius: 2px;
+    transition: all ease 0.5s;
+  }
+
+  .open:nth-child(1) {
+    transform: rotate(45deg) translateY(16px);
+  }
+  .open:nth-child(2) {
+    opacity: 0;
+  }
+  .open:nth-child(3) {
+    transform: rotate(-45deg) translateY(-16px);
+  }
+  .close:nth-child(1) {
+    transform: rotate(0) translateY(0);
+  }
+  .close:nth-child(2) {
+    opacity: 1;
+  }
+  .close:nth-child(3) {
+    transform: rotate(0) translateY(0);
+  }
+`;
+
+export const Barre = styled.div`
+  ul {
+    background-color: gray;
+    width: 20vw;
+    height: 50vh;
+    z-index: 500;
+    position: relative;
+    top: 8vh;
+    right: 0;
+  }
+  .open:nth-child() {
+    transform: translateX(10vw);
+  }
+  .close:nth-child() {
+    transform: translateY(0);
+  }
+`;
+
+export const Ul2 = styled.ul`
+  list-style: none;
+  height: 50vh;
+`;
+
+export const Li2 = styled.li`
+  list-style: none;
+  padding-bottom: 10vh;
 `;
