@@ -1,6 +1,6 @@
 # CHECKPOINT-4 - WILD CODE SCHOOL
 
-We had 48h to make this project. I choose to start a website for my friend who started her farmhouse Inn with chinese medicine.
+We had 48h to make this project. I choose to start a website for my friend who started her farmhouse Inn with chinese medicine, and then I continue as a personnal project.
 
 # Tech/framework used
 
